@@ -13,6 +13,10 @@ export default {
       },
       boxShadow: {
         custom: '0px 4px 6px 0px #00000040',
+        custom2: '2px 4px 10px 0px #00000040',
+        input: '5px 4px 10px 0px #00000040',
+        textarea: '6px 8px 10px 8px #00000040',
+        brand: '0px 4px 4px 0px #00000040',
       },
       spacing: {
         440: '440px',

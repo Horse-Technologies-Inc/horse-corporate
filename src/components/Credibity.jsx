@@ -18,7 +18,7 @@ const Credibity = () => {
               own license if you don’t have one and pay it in installments
             </p>
             <div className="flex justify-center">
-              <button className="hero-btn ml-auto max-md:px-[20px] xl:translate-x-[260px]">
+              <button className="border-none rounded-[70px] bg-s1 font-outfit font-normal text-[28px] text-white md:hero-btn max-md:px-[15px] max-sm:py-[15px] xl:translate-x-[260px]">
                 JOIN WAITING LIST
               </button>
             </div>

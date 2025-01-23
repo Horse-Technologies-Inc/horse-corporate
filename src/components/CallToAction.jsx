@@ -1,6 +1,6 @@
 const CallToAction = () => {
   return (
-    <section className="pt-[99px]">
+    <section className="pt-[99px] mb-[200px]">
       <div
         className="container flex flex-col h-[480px] justify-between items-center relative border rounded-[25px] text-center p-[80px] lg:max-w-[800px] xl:max-w-[900px]"
         style={{
