@@ -9,7 +9,7 @@ const Hero = () => {
             </h1>
             <p className="hero-text mt-6">
               Affordability at your doorstep. Get on the Horse app and order a
-              motorcycle wherever whenever.
+              ride wherever whenever.
             </p>
           </div>
 
