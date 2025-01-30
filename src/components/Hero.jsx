@@ -26,10 +26,15 @@ const Hero = () => {
         </p>
 
         <div className="w-full lg:row-all-centered col-all-centered gap-x-10 gap-y-4 px-[2rem]">
-          <button className="hero-btn font-bold">Customers</button>
-          <button className="hero-btn bg-black md:px-[65px] max-md:px-[20px] font-bold">
+          <a href="/waitlist" className="hero-btn font-bold !text-center">
+            Customers
+          </a>
+          <a
+            href="/waitlist"
+            className="hero-btn bg-black md:px-[65px] max-md:px-[20px] font-bold !text-center"
+          >
             Riders
-          </button>
+          </a>
         </div>
       </div>
     </section>

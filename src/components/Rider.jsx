@@ -11,9 +11,13 @@ const Rider = () => {
           increase their income per day by riding clients around and running
           errands for customers.
         </p>
-        <button className="hero-btn md:px-[65px] max-md:px-[20px] mt-10 mb-[120px] font-bold">
+
+        <a
+          href="/waitlist"
+          className="hero-btn md:px-[65px] max-md:px-[20px] mt-10 mb-[120px] font-bold text-center"
+        >
           Get onboarded
-        </button>
+        </a>
 
         <img
           src="/errie.png"

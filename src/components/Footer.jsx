@@ -35,9 +35,12 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex">
-          <button className="ml-auto hero-btn bg-white mt-8 text-s1 md:px-[65px] max-md:px-[20px]">
+          <a
+            href="/waitlist"
+            className="ml-auto hero-btn bg-white mt-8 text-s1 md:px-[65px] max-md:px-[20px] text-center font-bold"
+          >
             Join us now
-          </button>
+          </a>
         </div>
       </div>
     </footer>

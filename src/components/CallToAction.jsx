@@ -12,9 +12,12 @@ const CallToAction = () => {
         <h2 className="text-black font-medium text-3xl">
           BE A PART OF THE NEXT BIG THING
         </h2>
-        <button className="hero-btn   font-bold bg-black md:px-[75px] max-md:px-[20px]">
+        <a
+          href="/waitlist"
+          className="hero-btn font-bold bg-black md:px-[75px] max-md:px-[20px] text-center"
+        >
           GET STARTED
-        </button>
+        </a>
       </div>
     </section>
   );
