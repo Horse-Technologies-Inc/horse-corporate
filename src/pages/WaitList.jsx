@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
-import { MAILING_CONFIG } from '../../constants/app.constants';
+import { WAITLIST_CONFIG } from '../../constants/app.constants';
 import { ButtonLoader } from '../elements/loader';
 
-const ContactUs = () => {
+const WaitListPage = () => {
   // const formRef = useRef();
   //component states
   const [mailingData, setMailingData] = useState({
@@ -11,7 +11,7 @@ const ContactUs = () => {
     lastName: '',
     email: '',
     phoneNumber: '',
-    message: '',
+    role: '',
   });
   const [loading, setLoading] = useState(false);
   const [mailMessage, setNetworkMessage] = useState('');
@@ -23,17 +23,18 @@ const ContactUs = () => {
       from_name: `${mailingData.firstName} ${mailingData.lastName}`,
       first_name: mailingData.firstName,
       last_name: mailingData.lastName,
-      message: mailingData.message,
+      role: mailingData.role,
       phone_number: mailingData.phoneNumber,
       email: mailingData.email,
     };
 
     setLoading(true);
+    setNetworkMessage(``);
     let response = await emailjs.send(
-      MAILING_CONFIG.serviceID,
-      MAILING_CONFIG.templateId,
+      WAITLIST_CONFIG.serviceID,
+      WAITLIST_CONFIG.templateId,
       formMail,
-      MAILING_CONFIG.publicKey,
+      WAITLIST_CONFIG.publicKey,
     );
     console.log('response', response);
     if (response.status == 200) {
@@ -41,13 +42,13 @@ const ContactUs = () => {
       setLoading(false);
       setNetworkStatus(response.status);
       setNetworkMessage(
-        'Your message has been sent successfully. The team will get back to your shortly',
+        `Hey, ${mailingData.firstName}, thank you for joining us. We will onboard you once we launch, and you are sure to get a 10% discount off your first three activities 🎉`,
       );
     } else if (response.status != 200) {
       setLoading(false);
       setNetworkStatus('Error');
       setNetworkMessage(
-        'Uh uh! we ran into an issue while processing your message. Please try again later.',
+        'Uh uh! we ran into an issue while aadding you to the waiting list. Please try again later.',
       );
     }
 
@@ -55,9 +56,9 @@ const ContactUs = () => {
   };
   return (
     <div className="pt-[85px] max-sm:pt-[47px] gap-y-10 col-all-start">
-      <div className="w-[100vw] h-[45vh] bg-[url(/telephone.png)] bg-center bg-no-repeat bg-cover col-all-centered">
+      <div className="w-[100vw] h-[45vh] bg-[url(/static/waitlist-banner.svg)] bg-center bg-no-repeat bg-cover col-all-centered">
         <h2 className="bg-white px-10 py-2 rounded-full opacity-50 text-3xl font-bold w-max">
-          Contact Us
+          Join us
         </h2>
       </div>
 
@@ -67,7 +68,7 @@ const ContactUs = () => {
           className="w-full lg:w-3/4 col-all-start gap-y-4 pt-8 px-6"
           onSubmit={(e) => sendEmail(e)}
         >
-          <div className="w-full lg:grid-2-cols col-all-start gap-x-4">
+          <div className="w-full col-all-start gap-x-4">
             <div className="lg:w-[48%] w-full flex flex-col">
               <label
                 className="text-xl   font-bold mb-2 ml-1"
@@ -104,7 +105,7 @@ const ContactUs = () => {
             </div>
           </div>
 
-          <div className="w-full lg:grid-2-cols col-all-start gap-x-4">
+          <div className="w-full col-all-start gap-x-4">
             <div className="lg:w-[48%] w-full flex flex-col">
               <label className="text-xl font-bold ml-1" htmlFor="phoneNumber">
                 Phone number
@@ -144,18 +145,21 @@ const ContactUs = () => {
           </div>
 
           <div className="lg:w-[48%] w-full flex flex-col">
-            <label className="text-xl   font-bold mb-2" htmlFor="message">
-              Message
+            <label className="text-xl   font-bold mb-2" htmlFor="role">
+              Role
             </label>
-            <textarea
-              required
-              id="message"
-              placeholder="Please leave your message here"
-              className="w-full lg:w-[900px] shadow-textarea text-xl px-8 py-7 h-[215px] mb-[40px] focus:outline-none"
+            <select
               onChange={(e) =>
-                setMailingData({ ...mailingData, message: e.target.value })
+                setMailingData({ ...mailingData, role: e.target.value })
               }
-            />
+              className="w-full lg:w-[440px] rounded shadow-input  text-sm opacity-[80%] px-8 py-7 h-[17px] mb-[50px] focus:outline-none bg-white"
+            >
+              <option disabled value={'-'}>
+                Select your role
+              </option>
+              <option value={'Customer'}>Customer</option>
+              <option value={'Rider'}>Rider</option>
+            </select>
           </div>
           {mailMessage !== '' && (
             <div
@@ -169,17 +173,17 @@ const ContactUs = () => {
             type="submit"
             className={`rounded-[20px] bg-[#F8931F] w-max lg:px-20  px-10 py-4 text-white font-bold text-2xl place-self-center ${loading && 'border-2 border-[#F8931F] bg-white'}`}
           >
-            {loading ? <ButtonLoader type={'white'} /> : <>Send Message</>}
+            {loading ? <ButtonLoader type={'white'} /> : <>Join us</>}
           </button>
         </form>
         <img
-          src="/static/contact-illustration.png"
-          alt="Contact Book"
-          className="hidden lg:block translate-x-[-60px]"
+          src="/static/waitlist-banner.svg"
+          alt="Waitlist"
+          className="hidden lg:block"
         />
       </div>
     </div>
   );
 };
 
-export default ContactUs;
+export default WaitListPage;

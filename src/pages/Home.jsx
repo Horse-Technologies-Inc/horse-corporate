@@ -6,7 +6,7 @@ import Rider from '../components/Rider';
 
 const Home = () => {
   return (
-    <div className="pt-[85px]">
+    <div className="pt-[85px] col-all-start !gap-y-10">
       <Hero />
       <Rider />
       <Gradient />

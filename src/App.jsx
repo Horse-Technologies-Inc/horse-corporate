@@ -6,6 +6,7 @@ import ErrorPage from './pages/Error';
 import ContactUs from './pages/ContactUs';
 import Team from './pages/Team';
 import Partners from './pages/Partners';
+import WaitListPage from './pages/WaitList';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,7 @@ const router = createBrowserRouter([
       { path: '/contact-us', element: <ContactUs /> },
       { path: '/team', element: <Team /> },
       { path: '/partners', element: <Partners /> },
+      { path: '/waitlist', element: <WaitListPage /> },
     ],
   },
 ]);
