@@ -46,7 +46,7 @@ const Header = () => {
           <button className="nav-links font-bold text-white pt-4 pb-3 px-8 bg-s1 border-none rounded-[99px]">
             JOIN WAITING LIST
           </button>
-          <img src="/profile.png" width={40} height={40} alt="Profile" />
+          {/* <img src="/profile.png" width={40} height={40} alt="Profile" /> */}
         </div>
 
         <button onClick={toggleMenu}>
