@@ -1,26 +1,33 @@
 const Footer = () => {
   return (
-    <footer className="pt-[99px]">
-      <div className="bg-s1 p-[50px]">
-        <img src="/logo.png" width={181} height={71} alt="Logo" />
-        <div className="flex mt-12 justify-around footer-links">
-          <div className="flex flex-col gap-8">
-            <span className="font-bold">Company</span>
-            <span>About us </span>
-            <span>Our offers</span>
+    <footer className="pt-[2rem]">
+      <div className="bg-s1 p-[2rem] w-full h-max">
+        <div className="w-full md:grid-4-cols  justify-around footer-links col-all-centered gap-y-10">
+          <img
+            src="/logo.png"
+            width={181}
+            height={71}
+            alt="Logo"
+            className="md:border-none md:pb-0 pb-2 border-b border-gray-200"
+          />
+          <div className="w-full md:col-all-start col-all-centered gap-y-4">
+            <span className="font-bold text-lg">Site map</span>
+            <a href="/about">Home</a>
+            <a href="/about">About us </a>
+            <a href="/team">Our team </a>
+            <a href="/home">Our offers</a>
           </div>
 
-          <div className="flex flex-col gap-8">
-            <span className="font-bold">Product</span>
-            <span>Ride</span>
-            <span>Drive</span>
-            <span>Delivery</span>
-            <span>JEANEÉ</span>
-            <span>Quick bite</span>
+          <div className="w-full md:col-all-start col-all-centered gap-y-4">
+            <span className="font-bold text-lg">Products</span>
+            <a href="/#">The Horse App</a>
+            <a href="/#">The Horse App - Riders</a>
+            <a href="/#">JEANEÉ</a>
+            <a href="/#">Quick bite</a>
           </div>
 
-          <div className="flex flex-col gap-8">
-            <span className="font-bold">Follow us</span>
+          <div className="w-full md:col-all-start col-all-centered gap-y-4">
+            <span className="font-bold text-lg">Follow us</span>
             <span>Instagram</span>
             <span>Twitter</span>
             <span>Facebook</span>

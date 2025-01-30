@@ -1,24 +1,32 @@
+import { APP_NAME } from '../../constants/app.constants';
+
 const Credibity = () => {
   return (
-    <section className="pt-[99px] overflow-x-clip">
-      <div className="bg-[#F5BC62B0] p-20 lg:p-[100px]">
-        <div className="md:flex text-center items-center justify-center gap-[20px] lg:gap-[50px]">
+    <section className="w-full col-all-centered py-[4rem] pb-0 h-max">
+      <div className="lg:py-[10rem] py-[2rem] bg-[#F5BC62B0] w-full col-all-centered rounded px-[2rem]">
+        <div className="w-full lg:row-all-centered gap-x-10 col-all-centered">
           <div className="flex justify-center">
-            <img src="/rider.png" width={300} alt="Rider" />
+            <img
+              src="/static/rider-illustration-b.png"
+              width={300}
+              alt="Rider"
+              className="w-[15rem] h-[17rem]"
+            />
           </div>
-          <div className="md:w-[70%] lg:max-w-[700px]">
-            <h2 className="section-title text-black font-bold max-md:mt-8">
-              HIGH CREDIBILITY
+          <div className="lg:w-2/4 col-all-start gap-y-6">
+            <h2 className="text-black lg:text-5xl text-2xl font-bold max-md:mt-8">
+              🚀 Earn More, Drive Smart!
             </h2>
-            <p className="text-[#0000008F] font-inter mb-12">
-              we give the best offers to our users
+
+            <p className="text-sm font-medium  mb-12">
+              Join {APP_NAME} today and enjoy higher earnings, instant payouts,
+              and flexible schedules. Get more ride requests, lower commissions,
+              and 24/7 support to keep you moving. Sign up in minutes and start
+              earning better, faster, and smarter! Don’t miss out—switch now and
+              drive your success! Let me know if you want any tweaks! 😊
             </p>
-            <p className="hero-text font-inter font-[500] tracking-[5%] mb-12">
-              By joining horse as a rider, You have a chance of obtaining your
-              own license if you don’t have one and pay it in installments
-            </p>
-            <div className="flex justify-center">
-              <button className="border-none rounded-[70px] bg-s1 font-outfit font-normal text-[28px] text-white md:hero-btn max-md:px-[15px] max-sm:py-[15px] xl:translate-x-[260px]">
+            <div className="w-full col-all-centered ">
+              <button className="hero-btn font-bold !border-2 border-gray-100">
                 JOIN WAITING LIST
               </button>
             </div>
