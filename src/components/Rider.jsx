@@ -1,8 +1,8 @@
 const Rider = () => {
   return (
     <section className="col-all-centered w-full">
-      <div className="container bg-[#925712] relative rounded-md text-center py-[2rem] lg:w-2/4 xl:w-2/4 opacity-90">
-        <h1 className="text-white font-bold text-5xl">Who is an Errie?</h1>
+      <div className="w-full container bg-[#925712] relative rounded-md text-center py-[2rem] row-content-between">
+        <div className="w-2/3 col-all-centered gap-y-4"><h1 className="text-white font-bold text-5xl">Who is an Errie?</h1>
         <h2 className="section-title text-5xl font-[600]">
           All you need is a bike!!!
         </h2>
@@ -18,12 +18,11 @@ const Rider = () => {
         >
           Get onboarded
         </a>
-
-        <img
+</div>        <img
           src="/errie.png"
           width={300}
           alt="Motor Rider"
-          className="max-md:w-[230px] border-[3px] border-[#F8931F] rounded-[360px] absolute top-0 left-0 bottom-0 right-0 m-auto translate-y-[300px] xl:translate-y-[325px] max-md:translate-y-[305px] max-sm:translate-y-[370px]"
+          className="hidden lg:block max-md:w-[230px] border-[3px] border-[#F8931F] rounded-[360px]"
         />
       </div>
     </section>
