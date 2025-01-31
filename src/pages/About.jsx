@@ -12,7 +12,7 @@ const About = () => {
         </h2>
         <p className="hero-text   tracking-[5%] mx-[15px] mb-[57px]">
           Horse is the two-in-one mobility app that offers ride-hailing and
-          deliveries services. Our aim is to provide convenient transportation
+          deliveries/errands services. Our aim is to provide convenient transportation
           services, increase user base, improve user experience and
           satisfaction.We provide a transportation service that helps our users
           skip traffic, beat time and get to wherever they plan to go on time
