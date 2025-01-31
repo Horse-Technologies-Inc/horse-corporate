@@ -1,11 +1,9 @@
 const Rider = () => {
   return (
-    <section className="pt-[99px] pb-[90px]">
-      <div className="container bg-[#925712] relative border rounded-[25px] text-center p-[39px] lg:max-w-[800px] xl:max-w-[900px]">
-        <h2 className="section-title text-white font-[600]">
-          Who is an Errie?
-        </h2>
-        <h2 className="section-title text-s2 font-[600]">
+    <section className="col-all-centered w-full">
+      <div className="container bg-[#925712] relative rounded-md text-center py-[2rem] lg:w-2/4 xl:w-2/4 opacity-90">
+        <h1 className="text-white font-bold text-5xl">Who is an Errie?</h1>
+        <h2 className="section-title text-5xl font-[600]">
           All you need is a bike!!!
         </h2>
         <p className="hero-text text-white font-[500] tracking-[5%] my-10">
@@ -13,9 +11,13 @@ const Rider = () => {
           increase their income per day by riding clients around and running
           errands for customers.
         </p>
-        <button className="hero-btn md:px-[65px] max-md:px-[20px] mt-10 mb-[120px]">
-          Register as rider
-        </button>
+
+        <a
+          href="/waitlist"
+          className="hero-btn md:px-[65px] max-md:px-[20px] mt-10 mb-[120px] font-bold text-center"
+        >
+          Get onboarded
+        </a>
 
         <img
           src="/errie.png"

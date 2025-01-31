@@ -1,26 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --primary-font: 'Roboto', serif;
+  --secondary-font: 'Poppins', serif;
+}
 
-@layer components{
-    .nav-links {
-        @apply text-[15px] leading-[18.9px] font-outfit font-normal;
-    }
+* {
+  font-family: var(--primary-font) !important;
+  font-optical-sizing: auto;
+}
+@layer components {
+  .nav-links {
+    @apply text-[15px] leading-[18.9px] font-outfit font-normal;
+  }
 
-    .hero-text {
-        @apply text-xl text-black font-outfit tracking-tight
-    }
+  .hero-text {
+    @apply text-xl text-black font-outfit tracking-tight;
+  }
 
-    .hero-btn {
-        @apply border-none rounded-[70px] bg-s1 font-outfit font-normal text-[28px] max-md:py-[15px] py-[25px] max-md:w-full px-[45px] text-white
-    }
+  .hero-btn {
+    @apply border-none rounded-[70px] bg-s1 font-outfit font-normal text-[1.2rem] max-md:py-[10px] py-[20px] max-md:w-full px-[45px] text-white;
+  }
 
-    .section-title {
-        @apply text-5xl xl:text-7xl font-inter text-s1;
-    }
+  .section-title {
+    @apply text-5xl xl:text-7xl   text-s1;
+  }
 
-    .footer-links {
-        @apply font-outfit font-[24px] leading-[30px] text-white
-    }
+  .footer-links {
+    @apply font-outfit font-[24px] leading-[30px] text-white;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .col-reversed {
+    @apply flex flex-col-reversed justify-revered items-center;
+  }
+  .col-all-centered {
+    @apply flex flex-col justify-center items-center;
+  }
+
+  .col-items-centered {
+    @apply flex flex-col justify-start items-center;
+  }
+
+  .col-items-start {
+    @apply flex flex-col justify-center items-start;
+  }
+
+  .col-content-center {
+    @apply flex flex-col justify-center items-start;
+  }
+
+  .col-all-start {
+    @apply flex flex-col justify-start items-start;
+  }
+
+  .col-all-end {
+    @apply flex flex-col justify-end items-start;
+  }
+
+  .row-all-centered {
+    @apply flex flex-row justify-center items-center;
+  }
+
+  .row-items-centered {
+    @apply flex flex-row justify-start items-center;
+  }
+
+  .row-items-start {
+    @apply flex flex-row justify-center items-start;
+  }
+
+  .row-content-end {
+    @apply flex flex-row justify-end items-center;
+  }
+
+  .row-content-between {
+    @apply flex flex-row justify-between items-center;
+  }
+
+  .row-content-center {
+    @apply flex flex-row justify-center items-start;
+  }
+
+  .row-all-start {
+    @apply flex flex-row justify-start items-start;
+  }
+
+  .grid-2-cols {
+    @apply grid grid-cols-2 w-full gap-x-6;
+  }
+  .grid-3-cols {
+    @apply grid grid-cols-3 w-full gap-x-6;
+  }
+  .grid-4-cols {
+    @apply grid grid-cols-4 w-full gap-x-6;
+  }
 }
