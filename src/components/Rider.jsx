@@ -2,7 +2,7 @@ const Rider = () => {
   return (
     <section className="col-all-centered w-full">
       <div className="w-full container bg-[#925712] relative rounded-md text-center py-[2rem] row-content-between">
-        <div className="w-2/3 col-all-centered gap-y-4"><h1 className="text-white font-bold text-5xl">Who is an Errie?</h1>
+        <div className="lg:w-2/3 w-full col-all-centered gap-y-4"><h1 className="text-white font-bold text-5xl">Who is an Errie?</h1>
         <h2 className="section-title text-5xl font-[600]">
           All you need is a bike!!!
         </h2>
