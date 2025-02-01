@@ -15,7 +15,7 @@ const Footer = () => {
             <a href="/about">Home</a>
             <a href="/about">About us </a>
             <a href="/team">Our team </a>
-            <a href="/home">Our offers</a>
+            <a href="/home">Partners</a>
           </div>
 
           <div className="w-full md:col-all-start col-all-centered gap-y-4">
