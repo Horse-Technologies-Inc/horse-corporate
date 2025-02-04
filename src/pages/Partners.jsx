@@ -1,14 +1,11 @@
 const Partners = () => {
   return (
-    <div className="pt-[85px] max-sm:pt-[47px] overflow-x-clip">
-      <div className="relative">
-        <img src="/partners.png" alt="Partners" />
-        <p className="  font-[600] text-[64px] tracking-[5%] max-md:text-[40px] leading-[80px] absolute max-sm:top-[130px] max-sm:left-[260px] max-md:top-[200px] max-md:left-[460px] md:top-[230px] md:left-[470px] lg:top-[320px] lg:left-[680px] xl:top-[500px] xl:left-[20px]">
-          {' '}
+    <div className="pt-[85px] max-sm:pt-[47px] gap-y-10 col-all-start">
+      <div className="w-[100vw] h-[45vh] bg-[url(/partners.png)] bg-center bg-no-repeat bg-cover col-all-centered">
+        <h2 className="bg-white px-10 py-2 rounded-full opacity-50 text-3xl font-bold w-max">
           Partners
-        </p>
+        </h2>
       </div>
-
       <div className="">
         <p className="  font-[600] text-3xl max-sm:text-2xl tracking-[5%] my-8">
           Some global brands we work with
