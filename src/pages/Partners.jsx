@@ -2,6 +2,9 @@ const Partners = () => {
   return (
 
     <section className="pt-[85px] max-sm:pt-[60px]">
+      <div className="w-[100vw] h-[45vh] bg-[url(/partners.png)] bg-center bg-no-repeat bg-cover col-all-centered">
+        <h2 className="bg-white px-10 py-2 rounded-full opacity-50 text-3xl font-bold w-max">
+          Partners
       
 
     <div className="pt-[85px] max-sm:pt-[47px] gap-y-10 col-all-start">
