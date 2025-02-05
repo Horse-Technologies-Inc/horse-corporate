@@ -1,9 +1,12 @@
 const Team = () => {
   return (
-    <div className="pt-[85px] max-sm:pt-[47px]">
-      <img src="/team.png" alt="Our Team" />
-      <div className="container">
-        <p className="mt-[30px] text-[20px] leading-[40px]   tracking-[5%] mx-[15px] mb-[35px]">
+       <section className="pt-[85px] max-sm:pt-[60px]">
+      <div className="w-[100vw] h-[45vh] bg-[url(/team.png)] bg-center bg-no-repeat bg-cover col-all-centered">
+        <h2 className="bg-white px-10 py-2 rounded-full opacity-50 text-3xl font-bold w-max">
+          Team
+        </h2>
+      </div>        
+         <p className="mt-[30px] text-[20px] leading-[40px]   tracking-[5%] mx-[15px] mb-[35px]">
           Horse is built on the basis of team work. It rides on a team with the
           best team players. With a strong team created we are determined to
           answer and help solve the problems of our users with immediate
@@ -36,8 +39,7 @@ const Team = () => {
             Contact our team
           </button>
         </div>
-      </div>
-    </div>
+     </section>
   );
 };
 
