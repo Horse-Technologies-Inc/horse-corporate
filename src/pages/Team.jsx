@@ -39,8 +39,7 @@ const Team = () => {
             Contact our team
           </button>
         </div>
-      </div>
-    </div>
+     </section>
   );
 };
 
