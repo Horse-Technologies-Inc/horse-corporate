@@ -54,7 +54,7 @@ const ContactUs = () => {
     // return;
   };
   return (
-    <div className="pt-[85px] max-sm:pt-[47px] gap-y-10 col-all-start">
+    <section className="w-full h-max col-all-start gap-y-10">
       <div className="w-[100vw] h-[45vh] bg-[url(/telephone.png)] bg-center bg-no-repeat bg-cover col-all-centered">
         <h2 className="bg-white px-10 py-2 rounded-full opacity-50 text-3xl font-bold w-max">
           Contact Us
@@ -176,9 +176,11 @@ const ContactUs = () => {
           src="/static/contact-illustration.png"
           alt="Contact Book"
           className="hidden lg:block translate-x-[-60px]"
+          width={400}
+          height={'auto'}
         />
       </div>
-    </div>
+    </section>
   );
 };
 

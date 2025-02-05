@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section className="pt-[85px] max-sm:pt-[60px]">
+    <section className="w-full h-max col-all-start gap-y-10">
       <div className="w-[100vw] h-[45vh] bg-[url(/motor-bike_about.png)] bg-center bg-no-repeat bg-cover col-all-centered">
         <h2 className="bg-white px-10 py-2 rounded-full opacity-50 text-3xl font-bold w-max">
           About us
@@ -12,14 +12,15 @@ const About = () => {
         </h2>
         <p className="hero-text   tracking-[5%] mx-[15px] mb-[57px]">
           Horse is the three-in-one mobility app that offers ride-hailing,
-          deliveries and errands services. Our aim is to provide convenient transportation
-          services, increase user base, improve user experience and
-          satisfaction.We provide a transportation service that helps our users
-          skip traffic, beat time and get to wherever they plan to go on time
-          and before time. As much as this service makes transportation more
-          faster, the safety of our users is our priority so we provide them
-          with the best and top-rated motor riders to make sure their safety is
-          guaranteed. Our services are also cost-effective and reliable.
+          deliveries and errands services. Our aim is to provide convenient
+          transportation services, increase user base, improve user experience
+          and satisfaction.We provide a transportation service that helps our
+          users skip traffic, beat time and get to wherever they plan to go on
+          time and before time. As much as this service makes transportation
+          more faster, the safety of our users is our priority so we provide
+          them with the best and top-rated motor riders to make sure their
+          safety is guaranteed. Our services are also cost-effective and
+          reliable.
         </p>
       </div>
 

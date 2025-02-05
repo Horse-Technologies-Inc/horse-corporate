@@ -12,10 +12,10 @@ const Footer = () => {
           />
           <div className="w-full md:col-all-start col-all-centered gap-y-4">
             <span className="font-bold text-lg">Site map</span>
-            <a href="/about">Home</a>
+            <a href="/">Home</a>
             <a href="/about">About us </a>
             <a href="/team">Our team </a>
-            <a href="/home">Partners</a>
+            <a href="/partners">Partners</a>
           </div>
 
           <div className="w-full md:col-all-start col-all-centered gap-y-4">
