@@ -34,15 +34,32 @@ const Team = () => {
         Dedication
       </h2>
       <p className="text-[20px] leading-[40px]   tracking-[5%] mx-[15px] mb-[60px]">
-        We are willing to sacrifice everything just so we can meet the needs of
-        our users.
+        At Horse, dedication means going above and beyond to serve you with the best ride-hailing and delivery experience. 
+        Our team is fully committed to providing exceptional service with every ride and delivery,
+        ensuring your satisfaction at every step. We prioritize your safety, comfort, and convenience, 
+        guaranteeing that your journey or package is in reliable hands. Whether you're booking a ride or scheduling a delivery,
+        our dedicated team is always ready to meet your needs quickly and efficiently.
+        Our drivers and couriers are trained to handle each situation with care, 
+        ensuring smooth and timely services. We’re dedicated to offering real-time tracking,
+        clear communication, and prompt support so that you always feel in control. 
+        With Horse, you can trust that we’re fully invested in your experience, constantly working to improve and innovate. 
+        Your needs are our top priority, and we are dedicated to earning your trust every day.
+        At Horse, dedication drives us to provide a service that you can rely on, now and in the future.
       </p>
       <h2 className="font-bold section-title text-black tracking-[5%] ml-[15px]">
         Resilience
       </h2>
       <p className="text-[20px] leading-[40px]   tracking-[5%] mx-[15px] mb-[35px]">
-        We driven by the spirit of “never give up”.We work till our last breath
-        to fix any problem our company and the users are facing.
+        At Horse, resilience is a core value that drives us to always overcome 
+        challenges and provide you with dependable service. Whether it's navigating through traffic, 
+        handling unexpected delays, or adapting to changing needs, we are committed to ensuring your 
+        ride or delivery experience remains smooth and timely. Our team is trained to respond quickly 
+        and effectively to any situation, minimizing disruptions and ensuring your satisfaction. 
+        No matter the circumstances, we stay focused on delivering the best possible service, even in the face of challenges.
+        We are constantly refining our processes to adapt to new opportunities and obstacles, staying ahead of industry trends. 
+        With Horse, you can rely on our ability to bounce back and provide a consistent, high-quality service every time.
+        Our resilience means you can trust us to be there for you, ensuring that your needs are always met, no matter what.
+        At Horse, we don’t just persevere—we thrive in providing you with the service you deserve.     
       </p>
       <div className="flex mt-24">
         <button className="hero-btn bg-black rounded-[40px] md:px-[100px] md:mx-auto md:py-[5px]   font-[600] mb-[200px]">
