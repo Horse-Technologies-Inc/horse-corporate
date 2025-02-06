@@ -17,8 +17,18 @@ const Team = () => {
         Commitment
       </h2>
       <p className="text-[20px] leading-[40px]   tracking-[5%] mx-[15px] mb-[60px]">
-        We are committed to the vision of the company. We give out all our best
-        to reach the satisfaction of our users.{' '}
+        At Horse, our commitment to you is at the heart of everything we do. 
+        We understand that your time is valuable, and we are dedicated to providing 
+        fast, reliable, and safe ride-hailing and delivery services whenever you need them. 
+        Our team of professional drivers and couriers is committed to delivering 
+        excellence, ensuring a smooth and hassle-free experience for every ride or delivery. 
+        We prioritize your safety and comfort, with well-maintained vehicles and real-time tracking, 
+        so you always know where your ride or package is. Our customer support team is here to help, 
+        providing prompt and friendly assistance whenever you need it. With Horse, you can count on 
+        punctuality, reliability, and a service that’s always evolving to meet your needs. 
+        Your satisfaction is our top priority, and we’re committed to exceeding your expectations with every interaction.
+        Trust us to get you where you need to be or deliver your goods on time, every time.
+        At Horse, commitment isn’t just a word—it’s the promise we keep to you.{' '}
       </p>
       <h2 className="font-bold section-title text-black tracking-[5%] ml-[15px]">
         Dedication
