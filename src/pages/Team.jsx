@@ -62,7 +62,7 @@ const Team = () => {
         At Horse, we don’t just persevere—we thrive in providing you with the service you deserve.     
       </p>
       <div className="flex justify-center items-center h-screen">
-        <button className="hero-btn bg-black rounded-[40px] md:px-[100px] md:mx-auto md:py-[5px] font-[600] text-white">
+        <button className="hero-btn bg-black rounded-[40px] md:px-[100px] md:mx-auto md:py-[5px] font-[600] text-whiteflex justify-center items-center>
           Contact our team
         </button>
       </div>
