@@ -61,7 +61,7 @@ const Team = () => {
         Our resilience means you can trust us to be there for you, ensuring that your needs are always met, no matter what.
         At Horse, we don’t just persevere—we thrive in providing you with the service you deserve.     
       </p>
-      <div className="flex justify-center items-center h-screen">
+      <div className="flex justify-center items-center w-full">
         <button className="hero-btn bg-black rounded-[40px] md:px-[100px] md:mx-auto md:py-[5px] font-[600] text-white flex justify-center items-center>
           Contact our team
         </button>
