@@ -1,4 +1,4 @@
-const Partners = () => {
+const Partnerspage = () => {
   return (
     <section className="w-full h-max col-all-start gap-y-10">
       <div className="w-[100vw] h-[45vh] bg-[url(/partners.png)] bg-center bg-no-repeat bg-cover col-all-centered">
