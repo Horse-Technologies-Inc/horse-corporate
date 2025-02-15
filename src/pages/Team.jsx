@@ -62,7 +62,7 @@ export default function TeamPage() {
         At Horse, we don’t just persevere—we thrive in providing you with the service you deserve.     
       </p>
       <div className="flex justify-center items-center w-full">
-        <button className="hero-btn bg-black rounded-[40px] md:px-[100px] md:mx-auto md:py-[5px] font-[600] text-white flex justify-center items-center>
+        <button className="hero-btn bg-black rounded-[40px] md:px-[100px] md:mx-auto md:py-[5px] font-[600] text-white flex justify-center items-center">
           Contact our team
         </button>
       </div>
