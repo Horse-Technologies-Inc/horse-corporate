@@ -4,7 +4,7 @@ import About from './pages/About';
 import RootLayout from './pages/Root';
 import ErrorPage from './pages/Error';
 import ContactUs from './pages/ContactUs';
-import Team from './pages/Team';
+import TeamPage from './pages/Team';
 import Partners from './pages/Partners';
 import WaitListPage from './pages/WaitList';
 
