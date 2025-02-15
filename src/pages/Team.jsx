@@ -1,4 +1,4 @@
-export default function Team() {
+export default function TeamPage() {
   return (
     <section className="w-full h-max col-all-start gap-y-10">
       <div className="w-[100vw] h-[45vh] bg-[url(/team.png)] bg-center bg-no-repeat bg-cover col-all-centered">
@@ -67,6 +67,6 @@ export default function Team() {
         </button>
       </div>
     </section>
-  )
-}
+  );
+};
 
