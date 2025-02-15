@@ -1,4 +1,4 @@
-const About = () => {
+const Aboutpage = () => {
   return (
     <section className="w-full h-max col-all-start gap-y-10">
       <div className="w-[100vw] h-[45vh] bg-[url(/motor-bike_about.png)] bg-center bg-no-repeat bg-cover col-all-centered">
