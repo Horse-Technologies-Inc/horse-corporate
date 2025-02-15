@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser';
 import { MAILING_CONFIG } from '../../constants/app.constants';
 import { ButtonLoader } from '../elements/loader';
 
-const ContactUs = () => {
+const ContactUspage = () => {
   // const formRef = useRef();
   //component states
   const [mailingData, setMailingData] = useState({
