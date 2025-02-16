@@ -1,11 +1,11 @@
 import { createBrowserRouter, RouterProvider } from 'react-router';
-import HomePage from './pages/Home';
-import AboutPage from './pages/About';
+import Homepage from './pages/Home';
+import Aboutpage from './pages/About';
 import RootLayout from './pages/Root';
 import ErrorPage from './pages/Error';
-import ContactUsPage from './pages/ContactUs';
+import ContactUspage from './pages/ContactUs';
 import TeamPage from './pages/Team';
-import PartnersPage from './pages/Partners';
+import Partnerspage from './pages/Partners';
 import WaitListPage from './pages/WaitList';
 
 const router = createBrowserRouter([
