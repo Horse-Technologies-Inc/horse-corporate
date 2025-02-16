@@ -15,10 +15,10 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       { index: true, element: <HomePage /> },
-      { path: '/about', element: <AboutPage /> },
-      { path: '/contact-us', element: <ContactUsPage /> },
+      { path: '/about', element: <Aboutpage /> },
+      { path: '/contact-us', element: <ContactUspage /> },
       { path: '/team', element: <TeamPage /> },
-      { path: '/partners', element: <PartnersPage /> },
+      { path: '/partners', element: <Partnerspage /> },
       { path: '/waitlist', element: <WaitListPage /> },
     ],
   },
