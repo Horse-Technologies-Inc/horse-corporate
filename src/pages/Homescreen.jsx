@@ -4,7 +4,7 @@ import { Gradient } from '../components/Gradient';
 import Hero from '../components/Hero';
 import Rider from '../components/Rider';
 
-const Homepage = () => {
+const HomePage = () => {
   return (
     <div className="pt-[85px] col-all-start !gap-y-10">
       <Hero />
@@ -16,4 +16,4 @@ const Homepage = () => {
   );
 };
 
-export default Home;
+export default HomePage;

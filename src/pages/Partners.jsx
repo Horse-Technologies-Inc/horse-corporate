@@ -37,4 +37,4 @@ const Partnerspage = () => {
   );
 };
 
-export default Partners;
+export default Partnerspage;

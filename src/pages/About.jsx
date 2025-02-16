@@ -93,4 +93,4 @@ const Aboutpage = () => {
   );
 };
 
-export default About;
+export default Aboutpage;

@@ -184,4 +184,4 @@ const ContactUspage = () => {
   );
 };
 
-export default ContactUs;
+export default ContactUspage;
