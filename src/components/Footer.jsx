@@ -20,8 +20,8 @@ const Footer = () => {
 
           <div className="w-full md:col-all-start col-all-centered gap-y-4">
             <span className="font-bold text-lg">Products</span>
-            <a href="/#">The Horse App</a>
-            <a href="/#">The Horse App - Riders</a>
+            <a href="/#">The Horsify App</a>
+            <a href="/#">The Horsify App - Riders</a>
             <a href="/#">JEANEÉ</a>
             <a href="/#">Quick bite</a>
           </div>
