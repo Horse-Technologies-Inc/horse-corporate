@@ -19,7 +19,7 @@ const Credibity = () => {
             </h2>
 
             <p className="text-sm font-medium  mb-12">
-              Join {APP_NAME} today and enjoy higher earnings, instant payouts,
+              Join horsify today and enjoy higher earnings, instant payouts,
               and flexible schedules. Get more ride requests, lower commissions,
               and 24/7 support to keep you moving. Sign up in minutes and start
               earning better, faster, and smarter! {'Don’t'} miss out—switch now
