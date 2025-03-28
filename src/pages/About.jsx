@@ -11,7 +11,7 @@ const Aboutpage = () => {
           We make movement faster in a better way.{' '}
         </h2>
         <p className="hero-text   tracking-[5%] mx-[15px] mb-[57px]">
-          Horse is the three-in-one mobility app that offers ride-hailing,
+          Horsify is the three-in-one mobility app that offers ride-hailing,
           deliveries and errands services. Our aim is to provide convenient
           transportation services, increase user base, improve user experience
           and satisfaction.We provide a transportation service that helps our
@@ -31,7 +31,7 @@ const Aboutpage = () => {
       </div>
       <div className="container">
         <h4 className="  text-2xl font-bold tracking-[5%] mt-[57px] ml-[15px]">
-          What is horse Errie?
+          Who is an Errie?
         </h4>
         <p className="hero-text   tracking-[5%] mx-[17px] mb-[57px]">
           Well, comfort is also a thing for us.So we give our customers the
@@ -47,7 +47,7 @@ const Aboutpage = () => {
             <p className="hero-text   tracking-[5%]">
               We draw motivation from circumstances of life that hinder fast
               movements. We understand the frustration traffic brings to us and
-              we are determined to help you skip all of it. Horse also creates a
+              we are determined to help you skip all of it. Horsify also creates a
               platform for commercial motorcyclist to increase their income per
               day by riding clients around and running errands for customers.
             </p>
