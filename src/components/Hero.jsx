@@ -5,10 +5,10 @@ const Hero = () => {
         <div className="min-h-[50vh] w-full py-10 px-10 w-full flex lg:row-all-centered col-all-centered">
           <div className="h-max lg:w-2/4 col-all-start">
             <h1 className="section-title tracking-[5%] font-extrabold">
-              What is Horse?
+              HORSIFY
             </h1>
             <p className="lg:1/2 hero-text mt-6">
-              Affordability at your doorstep. Get on the Horse app and order a
+              Affordability at your doorstep. Get on the Horsify app and order a
               ride wherever whenever.
             </p>
           </div>
