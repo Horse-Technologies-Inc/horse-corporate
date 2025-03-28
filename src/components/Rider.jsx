@@ -7,7 +7,7 @@ const Rider = () => {
           All you need is a bike!!!
         </h2>
         <p className="hero-text text-white font-[500] tracking-[5%] my-10">
-          Horse grants the best platform for commercial motorcyclists to
+          Horsify grants the best platform for commercial motorcyclists to
           increase their income per day by riding clients around and running
           errands for customers.
         </p>
